@@ -20,10 +20,11 @@ app.use(express.json());
 
 // Enable CORS
 const corsOptions = {
-  origin: 'https://devblogs-frontend-tau.vercel.app', // This is your live Vercel URL
+  origin: 'https://devblogs-frontend-tau.vercel.app', 
   optionsSuccessStatus: 200 
 };
 app.use(cors(corsOptions));
+
 
 // Mount routers
 app.use('/api/v1/auth', auth);
