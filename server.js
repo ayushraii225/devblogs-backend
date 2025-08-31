@@ -21,7 +21,7 @@ app.use(express.json());
 // Enable CORS
 
 const corsOptions = {
-  origin: 'https://my-site-f4av5voc-ar595471.wix-vibe.com', 
+  origin: 'https://my-site-f4sw5voc-ar5565471.wix-vibe.com', 
   optionsSuccessStatus: 200 
 };
 app.use(cors(corsOptions));
