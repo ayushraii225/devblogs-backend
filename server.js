@@ -19,8 +19,9 @@ const app = express();
 app.use(express.json());
 
 // Enable CORS
+
 const corsOptions = {
-  origin: 'https://devblogs-frontend-tau.vercel.app', 
+  origin: 'https://my-site-f4av5voc-ar595471.wix-vibe.com', 
   optionsSuccessStatus: 200 
 };
 app.use(cors(corsOptions));
